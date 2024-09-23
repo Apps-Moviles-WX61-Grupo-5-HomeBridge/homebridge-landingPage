@@ -121,3 +121,53 @@ header{
     
     margin: 0 auto;
 }
+
+.hero__main{
+    background-image: url("./images/background_inicio.jpg");
+    
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    position: relative; 
+    z-index: 1; 
+    text-align: center;
+    padding: 1rem;
+
+}
+.hero__title{
+    font-family: var(--heading-font);
+    margin: 2.5em 0 1em;
+    font-size: 3rem;
+}
+
+.hero__paragraph{
+    line-height: 2;
+    margin-bottom: 1.5em;
+    font-size: 2rem;
+    bottom: 1rem;
+   
+}
+
+.hero__cta {
+    display: inline-block;
+    width: 250px;
+    padding: 15px 0;
+    background-image: var(--gradient);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: 1rem;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.hero__cta:hover {
+    border-color: white;
+}
