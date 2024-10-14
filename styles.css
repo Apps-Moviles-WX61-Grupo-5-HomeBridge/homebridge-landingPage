@@ -14,6 +14,11 @@
     --gradient: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
 }
 
+.hero__content {
+    flex: 1;
+    padding-right: 20px;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -33,7 +38,6 @@ body{
     font-family: var(--body-font);
     background-color: hsl(0, 0%, 100%);
 }
-
 .container{
     width: 100%;
     margin: 0 auto;
@@ -80,17 +84,33 @@ header{
     padding: 1rem;
 }
 .nav__title {
-    order: -1;
     font-size: 2em;
-    font-weight: 800; 
+    font-weight: 800;
     font-style: italic;
   }
-  
 
+.nav__branding {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-right: 10px;
+}
 .nav__img{
     width: 100px;
     display: block;
    
+}
+
+.hero__image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero__image img {
+    max-width: 100%;
+    height: auto;
 }
 
 .nav__links{
@@ -136,7 +156,11 @@ header{
     position: relative; 
     z-index: 1; 
     text-align: center;
-    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 
 }
 .hero__title{
