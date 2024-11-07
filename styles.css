@@ -52,7 +52,7 @@ header{
 }	
 
 .menu{
-    background-image: url("./images/background_inicio.jpg");
+    background-image: url("./images/hand-holding-keys-outdoors.jpg");
     
     background-size: cover;
     position: relative;
@@ -144,7 +144,7 @@ header{
 }
 
 .hero__main{
-    background-image: url("./images/background_inicio.jpg");
+    background-image: url("./images/hero-background.jpg");
     
     background-size: cover;
     position: relative;
